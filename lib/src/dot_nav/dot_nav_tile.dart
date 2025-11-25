@@ -44,7 +44,7 @@ class DotNavigationTiles extends StatelessWidget {
                     )
                   : EdgeInsets.zero),
           child: IgnorePointer(
-            ignoring: selected,
+            ignoring: false,
             child: InkWell(
               onTap: onTap,
               splashColor:
